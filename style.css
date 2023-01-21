@@ -1,0 +1,121 @@
+body {
+    background: url('Images/Circuit\ Primary.svg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.app {
+    /* background-color: aliceblue; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#eventName {
+    width: 450px;
+    height: 25px;
+    border-radius: 3px;
+    border: 3px solid white;
+    margin: 20px 20px 20px 20px;
+    font-size: 17px;
+
+}
+
+#eventName:hover {
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 1);
+}
+
+/* #btnAdd {
+    width: 90px;
+    height: 30px;
+    border-radius: 30px 100px;
+    border: 2px solid rgb(1, 86, 243)
+} */
+
+
+#btnAdd {
+    background-image: linear-gradient(to right, #abbaab 0%, #ffffff 51%, #abbaab 100%);
+    width: 95px;
+    height: 30px;
+    border-radius: 30px 100px;
+    border: 2px solid rgb(255, 255, 255);
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 20px #eee;
+    font-style: italic;
+    font-weight: 650;
+}
+
+#btnAdd:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: rgb(109, 107, 107);
+    text-decoration: none;
+}
+
+
+#eventsContainer {
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.container-button {
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.event-name {
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 20px;
+    color: white;
+    filter: drop-shadow(8px 1px 5px white);
+}
+
+
+.btnDelete {
+    background-color: orange;
+    width: 95px;
+    height: 30px;
+    border-radius: 7px;
+    border: 2px solid orange;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.btnDelete:hover {
+    background-color: red;
+    box-shadow: 0 5px 10px red;
+    border: 2px solid red;
+}
+
+footer {
+    text-align: center;
+    filter: drop-shadow(8px 1px 5px white);
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    margin-top: 10%;
+}
+
+.iconGit {
+    color: white;
+    font-size: 40px;
+}
